@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backGround">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/select"
+        android:textColor="@color/mainText1"
+        style="@style/DifficultyActivityText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/difficulty"
+        android:textColor="@color/mainText1"
+        style="@style/DifficultyActivityText"/>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="85dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:background="@drawable/shape_buttons_difficulty"
+        android:backgroundTint="@color/mainButton"
+        tools:ignore="KeyboardInaccessibleWidget">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/easy"
+            style="@style/DifficultyActivityTextLabel"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_bottles"
+            style="@style/DifficultyActivityTextLabelBottles"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:background="@drawable/shape_buttons_difficulty"
+        android:backgroundTint="@color/mainButton"
+        tools:ignore="KeyboardInaccessibleWidget">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium"
+            style="@style/DifficultyActivityTextLabel"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_6_bottles"
+            style="@style/DifficultyActivityTextLabelBottles"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:background="@drawable/shape_buttons_difficulty"
+        android:backgroundTint="@color/mainButton"
+        tools:ignore="KeyboardInaccessibleWidget">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hard"
+            style="@style/DifficultyActivityTextLabel"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_9_bottles"
+            style="@style/DifficultyActivityTextLabelBottles"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backGround">
+
+    <android.widget.Button
+        android:layout_width="340dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="210dp"
+        style="@style/DifficultyActivityTextLabelBottles.PauseButtons"
+        android:text="@string/resume"
+        android:fontFamily="@font/titan_one_regular"
+        android:background="@drawable/shape_button_pause"
+        android:backgroundTint="@color/mainButton"
+        />
+    <android.widget.Button
+        android:layout_width="340dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/restart"
+        android:fontFamily="@font/titan_one_regular"
+        android:background="@drawable/shape_button_pause"
+        android:backgroundTint="@color/mainButton"
+        style="@style/DifficultyActivityTextLabelBottles.PauseButtons"
+        />
+    <android.widget.Button
+        android:layout_width="340dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/quit"
+        android:fontFamily="@font/titan_one_regular"
+        android:background="@drawable/shape_button_pause"
+        android:backgroundTint="@color/mainButton"
+        style="@style/DifficultyActivityTextLabelBottles.PauseButtons"
+        />
+</LinearLayout>

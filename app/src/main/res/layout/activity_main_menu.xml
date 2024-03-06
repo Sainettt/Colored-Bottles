@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backGround"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="140dp"
+    android:layout_gravity="center"
+    android:src="@drawable/ic_bottles_main_activity"
+    android:contentDescription="@string/avatar"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:text="@string/colored"
+    android:textColor="@color/mainText1"
+    style="@style/MainActivityText"
+    />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/bottles"
+    android:textColor="@color/mainText2"
+    style="@style/MainActivityText"
+    />
+    <android.widget.Button
+        android:layout_width="280dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="135dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/mainButton"
+        android:background="@drawable/shape_button_main"
+        android:text="@string/start"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:fontFamily="@font/titan_one_regular"
+        />
+</LinearLayout>

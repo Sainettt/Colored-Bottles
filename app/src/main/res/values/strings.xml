@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Colored Bottles</string>
+    <string name="colored">Colored</string>
+    <string name="bottles">Bottles</string>
+    <string name="start">START</string>
+    <string name="select">Select</string>
+    <string name="difficulty">difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="_4_bottles">4 bottles</string>
+    <string name="medium">Medium</string>
+    <string name="_6_bottles">6 bottles</string>
+    <string name="hard">Hard</string>
+    <string name="_9_bottles">9 bottles</string>
+    <string name="resume">resume</string>
+    <string name="restart">restart</string>
+    <string name="quit">quit</string>
+    <string name="correctly">Correctly:</string>
+    <string name="bottle">bottle</string>
+    <string name="pause">pause</string>
+    <string name="avatar">avatar</string>
+</resources>
