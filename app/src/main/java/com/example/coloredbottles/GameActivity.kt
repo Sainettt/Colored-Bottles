@@ -1,6 +1,10 @@
 package com.example.coloredbottles
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageButton
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 class GameActivity: AppCompatActivity() {
@@ -14,5 +18,11 @@ class GameActivity: AppCompatActivity() {
             else -> R.layout.activity_main_menu
         }
         setContentView(layoutId)
+
+        val pauseButton = findViewById<ImageView>(R.id.pauseButton)
+        pauseButton.setOnClickListener{
+            val intent = Intent(this, PauseActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
