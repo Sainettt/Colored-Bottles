@@ -20,6 +20,7 @@
         android:textColor="@color/mainText1"
         style="@style/DifficultyActivityText"/>
     <LinearLayout
+        android:id="@+id/easyGame"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:orientation="vertical"
@@ -45,6 +46,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/mediumGame"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:orientation="vertical"
@@ -70,6 +72,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/hardGame"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:orientation="vertical"

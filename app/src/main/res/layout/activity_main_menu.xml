@@ -31,6 +31,7 @@
     style="@style/MainActivityText"
     />
     <android.widget.Button
+        android:id="@+id/start_button"
         android:layout_width="280dp"
         android:layout_height="105dp"
         android:layout_marginTop="135dp"
@@ -41,5 +42,6 @@
         android:textColor="@color/white"
         android:textSize="48sp"
         android:fontFamily="@font/titan_one_regular"
+        android:onClick="onStartButtonClick"
         />
 </LinearLayout>
