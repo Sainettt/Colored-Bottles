@@ -16,6 +16,7 @@
         android:layout_marginEnd="20dp"
         android:src="@drawable/ic_pause_button"
         android:contentDescription="@string/pause"
+        android:onClick="onPauseButtonClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,28 +36,28 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
         <ImageView
@@ -65,14 +66,14 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="30dp"
             android:onClick="onButtonClick"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:contentDescription="@string/bottle"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="30dp"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
 

@@ -2,9 +2,7 @@ package com.example.coloredbottles
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.View
-import android.widget.Button
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 
@@ -14,23 +12,23 @@ class DifficultActivity: AppCompatActivity() {
         setContentView(R.layout.activity_difficult_select)
 
         val easyButton = findViewById<LinearLayout>(R.id.easyGame)
-        val medium = findViewById<LinearLayout>(R.id.mediumGame)
-        val hard = findViewById<LinearLayout>(R.id.hardGame)
+        val mediumButton = findViewById<LinearLayout>(R.id.mediumGame)
+        val hardButton = findViewById<LinearLayout>(R.id.hardGame)
 
         val onClickListener = View.OnClickListener { view ->
             when (view.id) {
-                R.id.easyGame -> startGameActivity("easy")
-                R.id.mediumGame -> startGameActivity("medium")
-                R.id.hardGame-> startGameActivity("hard")
+                R.id.easyGame -> startGameActivity(4)
+                R.id.mediumGame -> startGameActivity(6)
+                R.id.hardGame-> startGameActivity(9)
             }
         }
         easyButton.setOnClickListener(onClickListener)
-        medium.setOnClickListener(onClickListener)
-        hard.setOnClickListener(onClickListener)
+        mediumButton.setOnClickListener(onClickListener)
+        hardButton.setOnClickListener(onClickListener)
     }
-    private fun startGameActivity(difficulty: String){
+    private fun startGameActivity(bottlesCount:Int){
         val intent = Intent(this, GameActivity::class.java)
-        intent.putExtra("difficulty", difficulty)
+        intent.putExtra("difficulty", bottlesCount)
         startActivity(intent)
     }
 }

@@ -16,6 +16,7 @@
         android:layout_marginEnd="20dp"
         android:src="@drawable/ic_pause_button"
         android:contentDescription="@string/pause"
+        android:onClick="onPauseButtonClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,7 +24,7 @@
     <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="110dp"
+        android:layout_marginBottom="100dp"
         android:columnCount="3"
         android:rowCount="3"
         android:orientation="horizontal"
@@ -35,51 +36,28 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
-            android:src="@drawable/ic_blue_bottle"
-            android:onClick="onButtonClick"
-            android:contentDescription="@string/bottle"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="35dp"
-            android:onClick="onButtonClick"
-            android:src="@drawable/ic_blue_bottle"
-            android:contentDescription="@string/bottle"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="35dp"
-            android:src="@drawable/ic_blue_bottle"
-            android:onClick="onButtonClick"
-            android:contentDescription="@string/bottle"/>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="35dp"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
         <ImageView
@@ -88,14 +66,37 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="35dp"
             android:onClick="onButtonClick"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
             android:contentDescription="@string/bottle"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="35dp"
-            android:src="@drawable/ic_blue_bottle"
+            android:src="@drawable/ic_darkblue_bottle"
+            android:onClick="onButtonClick"
+            android:contentDescription="@string/bottle"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/ic_darkblue_bottle"
+            android:onClick="onButtonClick"
+            android:contentDescription="@string/bottle"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:onClick="onButtonClick"
+            android:src="@drawable/ic_darkblue_bottle"
+            android:contentDescription="@string/bottle"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/ic_darkblue_bottle"
             android:onClick="onButtonClick"
             android:contentDescription="@string/bottle"/>
 
