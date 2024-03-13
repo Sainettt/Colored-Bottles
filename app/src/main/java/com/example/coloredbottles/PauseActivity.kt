@@ -19,12 +19,10 @@ class PauseActivity: AppCompatActivity() {
         val onClickListener = View.OnClickListener { view ->
             when (view.id){
                 R.id.resume_button -> {
-                    val intent = Intent(this, GameActivity::class.java)
-                    startActivity(intent)
+                    intentInfo()
                 }
                 R.id.restart_button -> {
-                    val intent = Intent(this, GameActivity::class.java)
-                    startActivity(intent)
+                    intentInfo()
                 }
                 R.id.quit_button -> {
                     val intent = Intent(this, MainActivity::class.java)
@@ -35,6 +33,13 @@ class PauseActivity: AppCompatActivity() {
         resumeButton.setOnClickListener(onClickListener)
         restartButton.setOnClickListener(onClickListener)
         quitButton.setOnClickListener(onClickListener)
+    }
+
+    private fun intentInfo(){
+        val difficulty = intent.getIntExtra("difficulty", 4)
+        val intent = Intent(this, GameActivity::class.java)
+        intent.putExtra("difficulty", difficulty)
+        startActivity(intent)
     }
 
 }
